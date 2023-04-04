@@ -9,3 +9,10 @@ Please submit a PR if you find any issues.
 
 
 -------------------
+all Codes to deploy
+az webapp deployment list-publishing-credentials --name pizzaapplaunches --resource-group MOL-APP-Service
+az webapp deployment source config-local-git --name pizzaapplaunches --resource-group MOL-APP-Service
+git clone https:/github.com/fouldsy/azure-mol-samples-2nd-ed.git
+azure-mol-samples-2nd-ed/03/prod$  
+git config --global user.email "Your Mail "
+git config --global user.name " Your Username "
